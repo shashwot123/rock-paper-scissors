@@ -98,7 +98,10 @@ function playGame(event){
 function resetScore(){
     userScore = 0;
     computerScore = 0;
-    console.log("Results: User:" + userScore + " Computer:" + computerScore);
+    const container = document.querySelector('#container');
+        if (container.hasChildNodes){
+            container.innerHTML = '';
+        }
 }
 
 const buttons = document.querySelectorAll('.choice');
