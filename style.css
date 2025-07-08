@@ -1,0 +1,15 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.inputs {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
